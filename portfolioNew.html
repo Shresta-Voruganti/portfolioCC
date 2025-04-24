@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shresta Voruganti's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .toggle-btn {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dark Mode Toggle Button -->
+    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+    <!-- Self Introduction -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm Shresta Voruganti, a Computer Science student based in Hyderabad, India. I specialize in web development and have a passion for creating dynamic and responsive web applications.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>React</li>
+            <li>Express</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <!-- Projects/Work Experiences -->
+    <section id="projects">
+        <h2>Projects & Work Experience</h2>
+        <ul>
+            <li>
+                <h3>Aaroha</h3>
+                <p>A project focused on woman safety developed with Dart programming.</p>
+                <a href="https://github.com/Shresta-Voruganti/G11" target="_blank">View on GitHub</a>
+            </li>
+            <li>
+                <h3>NamamiGange</h3>
+                <p>A Python project aimed at environmental conservation.</p>
+                <a href="https://github.com/Shresta-Voruganti/NamamiGange" target="_blank">View on GitHub</a>
+            </li>
+            <li>
+                <h3>Retail-LLM</h3>
+                <p>A JavaScript project related to retail management.</p>
+                <a href="https://github.com/Shresta-Voruganti/Retail-LLM" target="_blank">View on GitHub</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Feedback/Achievements -->
+    <section id="achievements">
+        <h2>Feedback & Achievements</h2>
+        <ul>
+            <li>Contributed to open-source projects on GitHub.</li>
+            <li>Active participant in coding challenges on LeetCode.</li>
+            <li>Maintained a consistent coding streak, as reflected in GitHub stats.</li>
+        </ul>
+    </section>
+
+    <!-- Education Profile -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                <p>Keshav Memorial Institute of Technology, Hyderabad, Telangana</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Information -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:22bd1a053z@gmail.com">22bd1a053z@gmail.com</a></p>
+        <p>Phone: +91 9390458839</p>
+        <p>
+            <a href="https://www.linkedin.com/in/shresta-voruganti9" target="_blank">LinkedIn</a> |
+            <a href="https://leetcode.com/u/Shresta-Voruganti/" target="_blank">LeetCode</a> |
+            <a href="https://github.com/Shresta-Voruganti" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        // Alert when the page loads
+        window.onload = () => {
+            alert("Welcome to Shresta Voruganti's Portfolio!");
+        }
+
+        // Toggle dark mode
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
